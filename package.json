@@ -1,0 +1,16 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Full-stack Todo Application",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npx serve public -p 3001",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npx serve public -p 3001"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
