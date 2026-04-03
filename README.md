@@ -26,31 +26,26 @@ A full-stack todo list application built with Node.js, Express, MongoDB, and van
 
 2. Install dependencies:
    ```bash
-   npm install
-   ```
+   npm install   ```
 
 3. Create `.env` file:
    ```
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/todoapp
-   ```
+   MONGODB_URI=mongodb://localhost:27017/todoapp   ```
 
 4. Start the server:
    ```bash
-   npm run dev
-   ```
+   npm run dev   ```
 
 ### Frontend Setup
 
 1. Navigate to frontend folder:
    ```bash
-   cd frontend
-   ```
+   cd frontend   ```
 
 2. Open `index.html` in your browser or use a local server:
    ```bash
-   npx serve public
-   ```
+   npx serve public   ```
 
 ## API Endpoints
 
